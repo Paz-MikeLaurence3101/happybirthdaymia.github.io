@@ -20,7 +20,8 @@ body {
 
 .additional-message {
   height: 150;
-  width: 150;
+  width: 50;
+  color: #fff;
   border: 2px solid white;
   text-align: center;
 }
