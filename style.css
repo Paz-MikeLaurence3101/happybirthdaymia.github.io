@@ -7,7 +7,7 @@ body {
     margin: 0;
     background-color: #87CEEB;
     overflow: hidden;
-    animation: backgroundChangeAnimation 5s infinite alternate;
+    animation: backgroundChangeAnimation 5s infinite alternate; /* Added backgroundChangeAnimation */
   }
   
   .birthday-text {
@@ -162,15 +162,16 @@ body {
 
   @keyframes sunChangeAnimation {
     0% {
-      sun-color: #FFD700; /* Initial color */
+      background-color: #FFD700; /* Initial color */
     }
     50% {
-      sun-color: rgb(238, 214, 181); /* Middle color */
+      background-color: rgb(217, 167, 97); /* Middle color */
     }
     100% {
-      sun-color: rgb(255, 255, 255); /* Final color */
+      background-color: rgb(255, 255, 255); /* Final color */
     }
   }
+
   @keyframes cloudAnimation {
     0% {
       transform: translateX(0);
