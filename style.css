@@ -7,6 +7,7 @@ body {
     margin: 0;
     background-color: #87CEEB;
     overflow: hidden;
+    animation: backgroundChangeAnimation 5s infinite alternate;
   }
   
   .birthday-text {
@@ -91,6 +92,7 @@ body {
     right: 300px;
     background-color: #FFD700; 
     border-radius: 50%;
+    animation: sunChangeAnimation 5s infinite alternate;
   }
 
   .leaf {
@@ -145,7 +147,30 @@ body {
       color: #c92929; /* Final color */
     }
   }
-  
+
+  @keyframes backgroundChangeAnimation {
+    0% {
+      background-color: #87CEEB; /* Initial color */
+    }
+    50% {
+      background-color: rgb(232, 142, 17); /* Middle color */
+    }
+    100% {
+      background-color: rgb(30, 30, 31); /* Final color */
+    }
+  }
+
+  @keyframes sunChangeAnimation {
+    0% {
+      sun-color: #FFD700; /* Initial color */
+    }
+    50% {
+      sun-color: rgb(238, 214, 181); /* Middle color */
+    }
+    100% {
+      sun-color: rgb(255, 255, 255); /* Final color */
+    }
+  }
   @keyframes cloudAnimation {
     0% {
       transform: translateX(0);
