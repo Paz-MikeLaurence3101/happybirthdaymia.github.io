@@ -162,7 +162,7 @@ body {
     }
   }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 412px) {
   .clouds {
     height: 40px;
     width: 100px;
@@ -172,4 +172,9 @@ body {
     height: 80px;
     width: 80px;
   }
+
+  .tulip {
+    bottom: 10%;
+  }
+}
 
