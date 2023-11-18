@@ -7,7 +7,7 @@ body {
     margin: 0;
     background-color: #87CEEB;
     overflow: hidden;
-    animation: backgroundChangeAnimation 5s infinite alternate; /* Added backgroundChangeAnimation */
+    animation: backgroundChangeAnimation 15s infinite alternate; /* Added backgroundChangeAnimation */
   }
   
   .birthday-text {
@@ -92,7 +92,7 @@ body {
     right: 300px;
     background-color: #FFD700; 
     border-radius: 50%;
-    animation: sunChangeAnimation 5s infinite alternate;
+    animation: sunChangeAnimation 15s infinite alternate;
   }
 
   .leaf {
