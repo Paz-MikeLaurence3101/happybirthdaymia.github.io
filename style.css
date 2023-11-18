@@ -3,7 +3,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 100;
   margin: 0;
   background-color: #87CEEB;
   overflow: auto;
@@ -205,3 +205,18 @@ audio {
   }
 }
 
+@media screen and (max-width: 412px) {
+.clouds {
+  height: 40px;
+  width: 100px;
+}
+
+.sun {
+  height: 80px;
+  width: 80px;
+}
+
+.tulip {
+  bottom: 10%;
+}
+}
