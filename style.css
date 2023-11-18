@@ -52,37 +52,34 @@ body {
     border-radius: 50% 50% 50% 50% / 80% 80% 60% 60%;
     position: absolute;
     opacity: 0;
-    animation: cloudAnimation 50s infinite linear;
+    animation: cloudAnimation 15s infinite linear;
   }
 
   .clouds:nth-child(1) {
     top: 10px;
-   
     background-color: #ecebeb;
     border-radius: 50% 50% 50% 50% / 80% 80% 60% 60%;
     position: absolute;
     opacity: 0;
-    animation: cloudAnimation 20s infinite linear;
+    animation: cloudAnimation 16s infinite linear;
   }
 
   .clouds:nth-child(2) {
     top: 13px;
-    
     background-color: #f3e8e8;
     border-radius: 50% 50% 50% 50% / 80% 80% 60% 60%;
     position: absolute;
     opacity: 0;
-    animation: cloudAnimation 40s infinite linear;
+    animation: cloudAnimation 17s infinite linear;
   }
 
   .clouds:nth-child(3) {
     top: 17px;
-  
     background-color: #e8e8e8;
     border-radius: 50% 50% 50% 50% / 80% 80% 60% 60%;
     position: absolute;
     opacity: 0;
-    animation: cloudAnimation 30s infinite linear;
+    animation: cloudAnimation 18s infinite linear;
   }
 
   .sun {
@@ -162,38 +159,19 @@ body {
     }
   }
 
-  @media screen and (max-width: 600px) {
-    .clouds {
-      height: 40px;
-      width: 100px;
-    }
-  
-    .sun {
-      height: 80px;
-      width: 80px;
-    }
-  
-    .tulip {
-      bottom: 10%;
-    }
+@media screen and (max-width: 412px) {
+  .clouds {
+    height: 40px;
+    width: 100px;
   }
 
-  @media screen and (max-width: 412px) {
-    .clouds {
-      height: 40px;
-      width: 100px;
-    }
-  
-    .sun {
-      height: 90px;
-      width: 80px;
-    }
-  
-    .tulip {
-      bottom: 8%;
-    }
+  .sun {
+    height: 80px;
+    width: 80px;
   }
 
-  .birthday-text {
-    height: 200px;
+  .tulip {
+    bottom: 10%;
   }
+}
+
