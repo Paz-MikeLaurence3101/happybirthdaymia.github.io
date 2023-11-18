@@ -161,3 +161,19 @@ body {
       opacity: 0.7;
     }
   }
+
+@media screen and (max-width: 600px) {
+  .clouds {
+    height: 40px;
+    width: 100px;
+  }
+
+  .sun {
+    height: 80px;
+    width: 80px;
+  }
+
+  .tulip {
+    bottom: 10%;
+  }
+}
