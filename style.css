@@ -28,13 +28,13 @@ body {
 
 .audio-container {
   position: fixed;
-  top: 100px;
+  top: 450px;
   right: 10px;
   z-index: 1000;
 }
 
 audio {
-  width: 300px; /* Adjust the width as needed */
+  width: 85px; 
 }
 
 .tulip {
