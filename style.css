@@ -11,6 +11,7 @@ body {
   
   .birthday-text {
     text-align: center;
+    top: 17px;
     font-size: 45px;
     font-weight: bold;
     animation: colorChangeAnimation 2s infinite alternate;
