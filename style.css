@@ -26,6 +26,17 @@ body {
   text-align: center;
 }
 
+.audio-container {
+  position: fixed;
+  top: 450px;
+  right: 10px;
+  z-index: 1000;
+}
+
+audio {
+  width: 85px; 
+}
+
 .tulip {
   position: relative;
 }
